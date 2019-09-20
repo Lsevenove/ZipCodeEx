@@ -81,7 +81,7 @@ MainWindow::MainWindow(QWidget *parent)
     statusBar()->showMessage(tr("Ready"), StatusTimeout);
 }
 
-
+//创建所有控件
 void MainWindow::createWidgets()
 {
     buttonBox = new QDialogButtonBox(this);
